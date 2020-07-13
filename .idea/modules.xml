@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/XQE-YuJi.iml" filepath="$PROJECT_DIR$/.idea/modules/XQE-YuJi.iml" group="XQE-YuJi" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/XQuickEnergy.iml" filepath="$PROJECT_DIR$/.idea/modules/XQuickEnergy.iml" group="XQuickEnergy" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="XQuickEnergy/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-yuji/app-yuji.iml" filepath="$PROJECT_DIR$/.idea/modules/app-yuji/app-yuji.iml" group="XQE-YuJi/app-yuji" />
     </modules>
   </component>
 </project>
