@@ -256,6 +256,7 @@ public class Statistics {
     }
   }
 
+  //获取统计文件
   private static Statistics getStatistics() {
     if (statistics == null) {
       String statJson = null;
@@ -267,13 +268,19 @@ public class Statistics {
     return statistics;
   }
 
+  //刷新统计信息
   public static void resetToday() {
+    //年月统计信息
     Statistics stat = getStatistics();
+    //获取年月日
     String[] dateStr = Log.getFormatDate().split("-");
+    //年
     int ye = Integer.parseInt(dateStr[0]);
+    //月
     int mo = Integer.parseInt(dateStr[1]);
+    //日
     int da = Integer.parseInt(dateStr[2]);
-
+    //更新年月日
     if (ye > stat.year.time) {
       stat.year.reset(ye);
       stat.month.reset(mo);
@@ -292,6 +299,7 @@ public class Statistics {
   private static void monthClear() {
   }
 
+  @SuppressWarnings("ResultOfMethodCallIgnored")
   private static void dayClear() {
     Statistics stat = getStatistics();
     stat.waterFriendLogList.clear();

@@ -2,6 +2,7 @@ package pansong291.xposed.quickenergy.hook;
 
 public class ClassMember {
   public static final String
+      //支付包包名
       com_eg_android_AlipayGphone = "com.eg.android.AlipayGphone",
       com_eg_android_AlipayGphone_AlipayLogin = "com.eg.android.AlipayGphone.AlipayLogin",
       com_alipay_android_launcher_service_LauncherService = "com.alipay.android.launcher.service.LauncherService",
@@ -16,6 +17,7 @@ public class ClassMember {
       com_alipay_mobile_nebulacore_ui_H5Fragment = "com.alipay.mobile.nebulacore.ui.H5Fragment",
       pushFragment = "pushFragment",
       com_alipay_mobile_nebulacore_ui_H5Activity = "com.alipay.mobile.nebulacore.ui.H5Activity",
+      //监听生命周期
       onCreate = "onCreate", onResume = "onResume", onDestroy = "onDestroy",
       getResponse = "getResponse";
 }

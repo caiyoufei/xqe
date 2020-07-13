@@ -45,6 +45,7 @@ public class Config {
   private String xedgeproData;
 
   /* forest */
+  //是否打开收集能量
   private boolean collectEnergy;
   private int checkInterval;
   private int threadCount;
